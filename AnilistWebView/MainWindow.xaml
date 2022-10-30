@@ -14,7 +14,7 @@
                     Click="ButtonGo_Click" 
                     Content="Home"
                     Height="40"
-                    Width="40" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Visible" />
+                    Width="40" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Collapsed" />
         </DockPanel>
         <wv2:WebView2 Name= "mainWebView" Source="https://anilist.co"/>
     </DockPanel>
