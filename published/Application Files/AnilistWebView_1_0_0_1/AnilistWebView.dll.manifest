@@ -72,22 +72,22 @@
       <dsig:DigestValue>erY15ArwNMA3QAdk9wJYORuVDnfA6fpSSlsYk0oSvvU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="AnilistWebView.dll" size="178176">
+  <file name="AnilistWebView.dll" size="177664">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>2Q9vVnwmZ7MLHBWgqhczEB69n97HxJgiF0mFRmv5KPE=</dsig:DigestValue>
+      <dsig:DigestValue>i1LOESRt4koElCqsEByZTJhpIRQ2pY2BRu8yihou6N4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="AnilistWebView.exe" size="344064">
+  <file name="AnilistWebView.exe" size="343552">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>H1t4BkOJJSFWIMQcXlqrhnZz/4y1r1ACk/QmOfPjN0Y=</dsig:DigestValue>
+      <dsig:DigestValue>Jo7dqcT8KIL6VZ7bAdi7TDNWjeLg/kjQadxpYbNDVJ0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="AnilistWebView.runtimeconfig.json" size="161">
