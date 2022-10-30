@@ -8,13 +8,13 @@
         mc:Ignorable="d"
         Title="Anilist" Height="800" Width="1200">
     <DockPanel>
-        <DockPanel DockPanel.Dock="Top" Visibility="Collapsed">
+        <DockPanel DockPanel.Dock="Top" Visibility="Visible">
             <Button x:Name="ButtonGo"
                     DockPanel.Dock="Left"
                     Click="ButtonGo_Click" 
                     Content="Home"
                     Height="40"
-                    Width="40" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    Width="40" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Visible" />
         </DockPanel>
         <wv2:WebView2 Name= "mainWebView" Source="https://anilist.co"/>
     </DockPanel>

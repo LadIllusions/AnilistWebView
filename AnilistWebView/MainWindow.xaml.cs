@@ -23,6 +23,14 @@ namespace AnilistWebView
         public MainWindow()
         {
             InitializeComponent();
+            this.KeyDown += new KeyEventHandler(MainWindow_KeyDown);
+        }
+
+        private void MainWindow_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Escape) {
+                mainWebView.CoreWebView2.Navigate("https://anilist.co");
+            }
         }
 
         private void ButtonGo_Click(object sender, RoutedEventArgs e)
